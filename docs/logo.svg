@@ -1,0 +1,44 @@
+<svg width="880" height="210" viewBox="0 0 880 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Toyota Rent CLI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121821"/>
+      <stop offset="1" stop-color="#0a0e14"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff2233"/>
+      <stop offset="1" stop-color="#c70715"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="210" rx="20" fill="url(#bg)"/>
+  <rect width="880" height="6" rx="3" fill="#eb0a1e"/>
+
+  <!-- minivan, side view, facing right -->
+  <g transform="translate(78,52)">
+    <!-- cabin + body -->
+    <path d="M6 70 L6 48 Q6 40 14 36 L54 16 Q60 13 68 13 L150 13 Q160 13 166 22 L182 46 Q186 52 186 60 L186 70 Q186 80 176 80 L16 80 Q6 80 6 70 Z"
+          fill="url(#body)"/>
+    <!-- windows -->
+    <path d="M58 24 L92 24 L92 42 L40 42 Z" fill="#cfe8ff" opacity="0.92"/>
+    <rect x="100" y="24" width="56" height="18" rx="2" fill="#cfe8ff" opacity="0.92"/>
+    <!-- headlight + door seam -->
+    <rect x="178" y="52" width="9" height="9" rx="2" fill="#ffe9a8"/>
+    <line x1="96" y1="46" x2="96" y2="78" stroke="#8c0510" stroke-width="2"/>
+    <!-- wheels -->
+    <g>
+      <circle cx="54" cy="80" r="19" fill="#0a0e14"/>
+      <circle cx="54" cy="80" r="18" fill="none" stroke="#2b3340" stroke-width="3"/>
+      <circle cx="54" cy="80" r="7" fill="#c9ced6"/>
+      <circle cx="140" cy="80" r="19" fill="#0a0e14"/>
+      <circle cx="140" cy="80" r="18" fill="none" stroke="#2b3340" stroke-width="3"/>
+      <circle cx="140" cy="80" r="7" fill="#c9ced6"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="300" y="98" font-family="'DejaVu Sans','Helvetica Neue',Arial,sans-serif" font-size="48" font-weight="800" fill="#f2f5f9" letter-spacing="-0.5">Toyota Rent <tspan fill="#eb0a1e">CLI</tspan></text>
+
+  <!-- prompt-style tagline -->
+  <text x="302" y="138" font-family="'DejaVu Sans Mono','SF Mono',Menlo,monospace" font-size="18" fill="#9aa4b2"><tspan fill="#5ed17a">$</tspan> English client for Toyota Rent-a-Car — stock, prices, one-way</text>
+  <text x="302" y="164" font-family="'DejaVu Sans Mono','SF Mono',Menlo,monospace" font-size="14" fill="#5b6472">read-only · unofficial · built on the app's JSON API</text>
+</svg>
