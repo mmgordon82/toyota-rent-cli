@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/mode-read--only-2ea44f" alt="Read-only">
   <img src="https://img.shields.io/badge/booking-never-c70715" alt="No booking">
   <img src="https://img.shields.io/badge/status-unofficial-8957e5" alt="Unofficial">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License">
 </p>
 
 Toyota's rental app and its API only speak Japanese. This command-line client reads the same JSON API and prints stores, car models, classes, and prices in English, so you can check availability and one-way pricing without parsing kanji. It never logs in and never books — every command is a read.
@@ -144,3 +145,7 @@ Run the fleet self-check with `python -m trent.fleet`.
 - **Read-only.** The client calls store, master, and stock endpoints only. There is no login or booking path.
 - **Unofficial**, and not affiliated with or endorsed by Toyota. The API key in `trent/api.py` is the client key shipped inside the public Android app, not an account credential.
 - English for names without an explicit mapping is best-effort romanization, so an unusual store name can come out approximate.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
